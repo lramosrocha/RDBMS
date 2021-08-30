@@ -1,6 +1,6 @@
-Characteristics of RDBMS:
+Characteristics of relational database management system (RDBMS):
 - data is structured in rows and columns
-- follow Codd's 12 Rules
+- follow Codd's 12 Rules (https://www.tutorialspoint.com/dbms/dbms_codds_rules.htm)
 - SQL implementation (structured query language) for accessing the database
 - manages and deals with all relational databases
 - stores data in form of tables, not as a file
@@ -15,7 +15,7 @@ Which popular SQL-RDBMS exist?
 - MariaDB
 - SQLite
 
-DMBS:
+Database management system (DBMS):
 - dBase
 - MS Acces
 - LibreOffice Base
@@ -24,7 +24,7 @@ DMBS:
 Storage Engine MyISAM and InnoDB:
 | InnoDB                                               | MyISAM                   |
 |------------------------------------------------------|--------------------------|
-| RDBMS                                                | DMBS                     |
+| RDBMS                                                | DBMS                     |
 | better crash recovery                                | -                        |
 | did not until MySQL 5.6                              | FULLTEXT search engine   |
 | transactions, foreign keys, relationship constraints | -                        |
